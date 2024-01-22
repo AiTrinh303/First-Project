@@ -1,0 +1,14 @@
+{
+  "name": "first-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts":{
+    "start": "npm run compile-scss & live-server",
+    "compile-scss": "sass --watch styles/main.scss styles/main.css",
+    "build": "rm -rf build && parcel build src/index.html --dist-dir build --public-url ./",
+    "publish": "gh-pages -d build"
+},
+  "author": "Ai Trinh",
+  "license": "ISC"
+}
