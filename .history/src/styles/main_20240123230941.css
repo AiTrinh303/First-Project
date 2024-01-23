@@ -7,7 +7,6 @@
 html {
   scroll-behavior: smooth;
   font-family: 'Abril Fatface', serif;
-  letter-spacing: .6px;
 }
 
 .text-white {
@@ -499,7 +498,7 @@ line-height: 1.4;
 }
 
 .notice__copy{
-  font-family:Georgia, 'Times New Roman', Times, serif
+  notice__copy
 }
 .form-notice{
   font-size: 12px;

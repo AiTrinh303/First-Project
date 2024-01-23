@@ -6,8 +6,7 @@
 
 html {
   scroll-behavior: smooth;
-  font-family: 'Abril Fatface', serif;
-  letter-spacing: .6px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .text-white {
@@ -321,10 +320,6 @@ html {
   color: #757575;
 }
 
-.place-body .place-desc{
-  font-family: 'Lato', sans-serif;
-}
-
 .place-body .place-btn {
   align-items: flex-start;
   background-color: rgb(209, 119, 167);
@@ -447,6 +442,8 @@ html {
 #contact .content-section{
   display: flex;
   flex-direction: column;
+    
+
   
 }
 .form-wrap{
@@ -498,9 +495,6 @@ width: 345px;
 line-height: 1.4;
 }
 
-.notice__copy{
-  font-family:Georgia, 'Times New Roman', Times, serif
-}
 .form-notice{
   font-size: 12px;
   margin-top: 25px;
