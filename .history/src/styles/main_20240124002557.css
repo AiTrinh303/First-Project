@@ -438,9 +438,7 @@ html {
   display: block;
 }
 
-.gallery__item .gallery__info-btn{
-  color: rgb(255, 82, 217);
-}
+.gallery__info-btn
 /* contact form */
 #contact .content-section{
   display: flex;

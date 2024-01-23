@@ -416,7 +416,8 @@ html {
   color: white;
   font-size: 18px;
   border-radius: 15px;
-   
+  
+  
 }
 
 .gallery__item:hover .gallery__info{
@@ -438,9 +439,7 @@ html {
   display: block;
 }
 
-.gallery__item .gallery__info-btn{
-  color: rgb(255, 82, 217);
-}
+
 /* contact form */
 #contact .content-section{
   display: flex;
