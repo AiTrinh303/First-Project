@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: He;
+}
+
+#header {
+  height: 46px;
+  background-color: #000;
+}
+
+#nav li {
+  display: inline-block;
+}
+
+#nav li a {
+  color: #fff;
+  text-decoration: none;
+  line-height: 46px;
+  padding: 24px;
+}
+
+#nav .subnav {
+  display: none;
+}/*# sourceMappingURL=main_20240122124515.css.map */
