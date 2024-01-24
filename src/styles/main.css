@@ -839,11 +839,11 @@ html {
 }
 
 #footer .top-btn i {
-  border: 1px solid black;
+  border: 2px solid rgba(153, 52, 140, 0.4);
   width: 80px;
   height: 100%;
   border-radius: 50px;
-  padding: 5px;
+  padding: 15px;
   font-weight: 900;
   color: white;
   background-color: rgb(160, 4, 121);
