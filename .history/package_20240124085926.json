@@ -1,0 +1,23 @@
+{
+  "name": "first-project",
+  "version": "1.0.0",
+  "description": "simple Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run compile-scss &live-server",
+    "compile-scss": "sass --watch src/styles/main.scss src/styles/main.css",
+    "build": "rm -rf build && parcel build /index.html --dist-dir build --public-url ./https://aitrinh303.github.io/First-Project//",
+    "publish": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ai Trinh",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0",
+    "bootstrap": "^5.3.2",
+    "gh-pages": "^6.1.1",
+    "live-server": "^1.2.2",
+    "parcel": "^2.11.0",
+    "sass": "^1.70.0"
+  }
+}
