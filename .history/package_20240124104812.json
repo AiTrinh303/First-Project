@@ -2,7 +2,7 @@
   "name": "first-project",
   "version": "1.0.0",
   "description": "simple Project",
-  "main": "index.js",
+  "main": "index.js","index.html"
   "scripts": {
     "start": "npm run compile-scss &live-server",
     "compile-scss": "sass --watch src/styles/main.scss src/styles/main.css",
