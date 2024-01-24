@@ -66,23 +66,13 @@
   
   #nav li:hover .subnav {
     display: block;
-    
   }
   
-  #nav > li:hover > a{
-    color: white;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-  }
-
-  #nav .subnav li a{
-    color: white;
-    background-color: black;
-  }
-
+  #nav > li:hover > a,
   #nav .subnav li:hover a {
-    color: rgb(227,93,149);
-    background-color: white;
+    color: #000;
+    border-top: 1px solid rgba(0,0,0,0);
+    border-bottom: 1px solid rgba(0,0,0,0);
   }
   
   #nav .subnav {
@@ -127,7 +117,6 @@
   
   #header .social-list-icon:hover{
     color: white;
-    font-size: 30px;
   }
   
   
