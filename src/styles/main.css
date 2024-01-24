@@ -215,8 +215,7 @@ html {
   width: 185px;
   min-height: 250px;
   border-radius: 8px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: 0.5s;
 }
 
@@ -374,8 +373,7 @@ html {
 .gallery .gallery__img {
   width: 90%;
   height: 90%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 5px;
 }
 
@@ -680,4 +678,6 @@ html {
   #footer .name {
     display: none;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */

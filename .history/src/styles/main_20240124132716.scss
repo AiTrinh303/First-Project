@@ -681,13 +681,13 @@
       display: none;
     }
     
-    // #content .about-text{
-    //     padding-right: 2em;
-    // }
+    #content .about-text{
+        padding-right: 2em;
+    }
 
     #content .members-list{
         flex-direction: column;
-        // padding-right: 2em;
+        padding-right: 2em;
     }
 
     #tour .places-list{
